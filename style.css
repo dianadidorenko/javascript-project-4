@@ -1,0 +1,82 @@
+body {
+  position: relative;
+  height: 100vh;
+}
+.appearance {
+  width: 650px;
+  height: 450px;
+  border: 3px solid grey;
+  border-radius: 5px;
+  background: rgb(244, 244, 248);
+  margin: 0 auto;
+  padding: 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ol {
+  padding: 35px;
+  list-style-position: inside;
+  margin: 0;
+  border: 1px solid grey;
+  max-width: 550px;
+  margin: 15px auto;
+  border-radius: 5px;
+  background-color: lavender;
+  box-shadow: 0px 0px 3px 1px #a7a7a7;
+  max-height: 478px;
+  position: relative;
+}
+
+li {
+  font-size: 30px;
+  cursor: pointer;
+}
+.highlight {
+  background: rgb(201, 201, 255);
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.notification {
+  position: absolute;
+  text-align: center;
+  border: 2px solid grey;
+  background-color: orange;
+  max-width: 200px;
+  left: 54%;
+  bottom: 13%;
+  border-radius: 5px;
+  padding: 5px;
+  display: none;
+}
+.button {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  box-shadow: 0px 0px 3px 1px #c9c9c9;
+  cursor: pointer;
+}
+
+.tasks-block {
+  position: absolute;
+  z-index: 3;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tasks-block a {
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+}
+.tasks-block a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+     <div class="tasks-block">
+      <a href="../index.html">Task 1 > </a>
+      <a href="../task2/practice2.html">Task 2 > </a>
+    </div>
+
+    <!-- Перший варіант -->
+    <div class="progress__block">
+      <div class="progress__item-main">
+        <div id="progress__item" data-width="15px" max="100"></div>
+      </div>
+      <a href="#" id="add">Add 5 percent</a>
+    </div>
+
+    <!-- Другий варіант -->
+    <div class="progressbar" id="progressAdd">
+			<progress value="15" max="100" id="progress"></progress>
+			<input type="button" id="progressbar" value="add">
+		</div>
+  </body>
+  <script src="script.js"></script>
+</html>
